@@ -1,0 +1,35 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#menu, .footer {
+  li {
+    display: inline;
+    list-style: none;
+    padding: 3px;
+  }
+}
+
+#work-btn {
+  border: 2px solid blue;
+  background: blue;
+  padding: {
+    left: 20px;
+    right: 20px;
+  } 
+  float: right;
+}
+
+.main .jumbotron {
+  background: {
+    image: url(http://wdy.h-cdn.co/assets/16/05/980x490/landscape-1454612525-baby-pandas.jpg);
+    size: cover;
+  }
+  min-height: 600px;
+  color: #747982;
+}
+
+h2 {
+  text-align: right;
+}
+
